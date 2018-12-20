@@ -1,62 +1,141 @@
-  <style>
-        @import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+         @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+        @import url('https://fonts.googleapis.com/css?family=Righteous');
+        @import url('https://fonts.googleapis.com/css?family=Cinzel');
+        @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+        @import url('https://fonts.googleapis.com/css?family=Charm');
     body{
-        background-color:black;
-        margin:0;
-		font-size:15px;
+        background-image:url("https://thumbs.gfycat.com/ChubbyNiceCommabutterfly-max-1mb.gif");
+		font-size:17px;
+		text-align:center;
+		color:white;
         }
+        h1{
+        	font-family: 'Playfair Display', serif;
+        }
+        h2{
+        	color:white;
+        	font-size:14px;
+        	text-align: center;
+        	font-family: 'Cinzel', serif;
+        }
+        h3{
+        font-size:18px;
+    }
+         p{  
+        font-size:14px;
+        font-family: 'Roboto Mono', monospace;
+    }
 	#banner{
-		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXQImKSwOeYIaG_5rcTAIgbNJfC0tMoceYjwZVG_KxBGZ5yF_");
+		background-image: url("https://lifewithpriblog.files.wordpress.com/2018/05/dbvniirv0aamuzq.jpg?w=652&h=190&zoom=2");
+		background-size: 100%;
 		margin:0 auto;
 		text-align:center;
 	    width:650px; 
+	    height:190px;
 	    border-radius:10px;
-	    margin:0 auto;
-	    text-align:center;
 	    box-shadow: 10px 10px 5px #888;
 	    }
-	#wrapper{
-		display: flex;
-		width: 100%;
-		}
 	#nav{
 		white-space: nowrap;
 		text-align: center;
+		padding-top:30px;
+		font-size:20px;
 		}
 	#nav a{
-	    font-family: 'Merriweather', serif;
+	    font-family: 'Charm', cursive;
 	    font-weight:bold;
-	    color: #AB113D;
+	    color: white;
 	    text-transform: uppercase;
-		margin-right: 10px;
-		padding: 10px;
-		
+		padding:20px;
+		text-decoration: none;
 	    }
-    #main{
-        width:500px;
-		border: 2px solid white;
-		padding:10px; 
+	#nav a:hover{
+	    color:#cce6ff;
+	    text-decoration-line:none;
+		font-size:25px;
+	    }
+    #wrapper{
+		display: flex;
+		justify-content:space-around;
+		width: 100%;
+		padding:10px;
+		background-color:black;
+		font-size:15px;
+		}
+	#main{
+        width:60%;
+		border: 3px solid white;
+		background-color:black;
+		padding:10px;
+		border-radius:6px;
+        }
+    .main-img{
+            width:400px;
+            margin:auto;
+            border-radius:2px;
         }
 	#side{
-		float:right;
-		margin-left:15;
-		padding-right:30px;
-	    width:200px;
-	    border: 2px solid white;
+	    width:30%;
+	    border: 3px solid white;
+	    color:white;
+	    border-radius:6px;
+	    padding-top:30px;
+	    text-align:center;
 	    }
-	.imgRight{
-		float:right;
-		margin-left:15;
-		}
+	.side-img{
+	    width:200px;
+	    height:200px;
+	   }
+	spam{
+		color:Mediumpurple;
+	}
+	a{
+		color:red;
+	}
+	ul{
+	    padding-top:20px;
+	    margin:auto;
+	   }
+	li{
+	    padding-top:20px;
+	    
+	   }
+	.pointing{
+            width:400px;
+        }
+	.alex{
+	    width:200px;
+	    height:200px;
+	    }
+	.alex-point{
+        list-style-type:none;
+	  } 
+	.josh{
+	    width:150px;
+	    height:200px;
+	  }
+	.josh-point{
+        list-style-type:none;
+	  }
+	 .media{
+	 	width:200px;
+        height:200px;
+        border-radius:36px;
+	 }
+	 .items{
+        display:flex;
+        margin:auto;
+        width:200px;
+    }
 	#footer{
-		width:100px;
-		margin-left: auto;
-		margin-right: auto;
+		width:20px;
 		font-family: Arial;
 		color:white;
 		font-size:14px;
 		text-transform: uppercase;
-		padding-top:100px;
+		padding-top:25px;
+		margin:auto;
 		}
 
-</style>
+
